@@ -4,7 +4,7 @@ This Lambda function is part of the VideoCap workflow. It fetches video files fr
 
 ## Requirements
 
-- An S3 bucket containing a CSV file generated with the structure defined in the [Accessible Video URLs CSV Generation](https://github.com/kbjohnson-penn/CLIPS/tree/main/2%20-%20Accessible%20Video%20URLs%20CSV%20Generation/Box%2C%20Inc.) repository.
+- An S3 bucket containing a CSV file generated with the structure defined in the [Accessible Video URLs CSV Generation](https://github.com/kbjohnson-penn/VideoCap/tree/main/2%20-%20Accessible%20Video%20URLs%20CSV%20Generation/Box%2C%20Inc.) repository.
 
 ## Setup
 
