@@ -1,6 +1,6 @@
 # Box Video Link Generator
 
-This script fetches video files from a specified Box folder, generates shared links for each file, sorts them by their filenames, and outputs the information into a CSV file that tracks viewership.
+This script is part of the VideoCap workflow. It fetches video files from a specified Box folder, generates shared links for each file, sorts them by their filenames, and outputs the information into a CSV file that helps track viewership.
 
 ## Requirements
 
@@ -25,7 +25,7 @@ pip install requests
 Run the script:
 
 ```bash
-python box_video_link_generator.py
+python generate_videos_csv.py
 ```
 
 **Output:**

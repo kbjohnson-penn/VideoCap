@@ -4,7 +4,7 @@
 This survey was created using the REDCap electronic data capture tools hosted at the University of Pennsylvania.<sup>1,2</sup> REDCap (Research Electronic Data Capture) is a secure, web-based software platform designed to support data capture for research studies, providing 1) an intuitive interface for validated data capture; 2) audit trails for tracking data manipulation and export procedures; 3) automated export procedures for seamless data downloads to common statistical packages; and 4) procedures for data integration and interoperability with external sources.
 
 ## Summary
-REDCap allows exporting and importing of projects as XML files. These files include all instruments (surveys), questions, sections, and settings that have been configured for a project.
+REDCap allows exporting and importing of projects as XML files. These files include all instruments (surveys), questions, sections, and settings that have been configured for a project. The provided XML corresponds to the released CLIPS Survey, which is powered by the VideoCap workflow (a component of CLIPS within the REDUCE initiative).
 
 ## Steps to Import the XML File
 
@@ -17,9 +17,6 @@ REDCap allows exporting and importing of projects as XML files. These files incl
    - Under Project Creation Option, check "Upload a REDCap project XML file (CDISC ODM format)".
    - Select the XML file downloaded from this repository.
    - Click "Create Project".
-
-## Conclusion
-You have successfully imported the CLIPS survey XML file into REDCap. You can now start using the survey to collect data for the CLIPS project.
 
 ## Additional Resources
 For more detailed instructions on using REDCap, refer to the [REDCap documentation](https://projectredcap.org/resources/).

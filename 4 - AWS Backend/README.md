@@ -1,6 +1,6 @@
 # S3 Video Link Processor
 
-This script fetches video files from a specified S3 bucket, processes them in batches, tracks their viewership state, and generates a redirect URL for a survey, appending video links as parameters.
+This Lambda function is part of the VideoCap workflow. It fetches video files from a specified S3 bucket, processes them in batches, updates their viewership state, and generates a redirect URL for a REDCap survey, appending video links as parameters.
 
 ## Requirements
 
@@ -15,7 +15,7 @@ This script fetches video files from a specified S3 bucket, processes them in ba
 
 ## Usage
 
-Deploy the script `s3_video_link_processor.py`'s content as an AWS Lambda Python function and set up a trigger for it via an API Gateway endpoint.
+Deploy the contents of `aws_lambda_function.py` as an AWS Lambda Python function and set up a trigger for it via an API Gateway endpoint.
 
 **Output:**
 

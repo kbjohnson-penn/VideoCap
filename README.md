@@ -1,26 +1,28 @@
-# CLIPS - Crowdsourcing Likely Insights from Patient Encounter Snippets
+# VideoCap
 
 ## Live Example
 > Explore a live example of the survey featured in this repository [here](https://redcap.med.upenn.edu/surveys/?s=73N9R8PH4N3MEW4H&video_1=https://upenn.box.com/s/ninyxkukphe79m2urbwmw4wtzzsa3h4z&video_2=https://upenn.box.com/s/4z0b3r7g3yja1z8eg8rs2vkza60ztsqi&video_3=https://upenn.box.com/s/5chq6x32kp4i9fyhjbqxhfe55bp3edia&sp=7248391052).
 
 ## Introduction
-The CLIPS project is part of the REDUCE (Reimagining Documentation Using Computation from Clinical Encounters) initiative, which aims to leverage multi-modal data from clinical encounters to enhance clinical documentation. CLIPS focuses on gathering insights from clinical encounter videos through crowdsourcing. This repository is set up to distribute your repository of videos into two one-minute halves for this purpose.
+VideoCap is a workflow for crowdsourcing insights from clinical encounter videos. It focuses on preparing, delivering, and collecting annotations on segmented video content via REDCap and a lightweight AWS backend. VideoCap is a component within CLIPS, which is part of the broader REDUCE (Reimagining Documentation Using Computation from Clinical Encounters) initiative.
 
-## CLIPS Objectives
+Note: The included REDCap survey export is named "CLIPS Survey" (as released). VideoCap is the tool/workflow that powers it.
+
+## VideoCap Objectives
 1. **Primary Objective:** Collect qualitative and quantitative data on diverse perspectives regarding clinical encounter videos.
 2. **Primary Outcome:** Comprehensive set of annotations per video segment, categorized into both categorical labels and free-form text descriptions.
 3. **Secondary Outcomes:** Demographic and mediator data such as medical experience, age, language preference, race, ethnicity, occupation, and current state of residence.
 
 ## Integration and Tools
-CLIPS integrates REDCap with Amazon AWS and an embeddable content delivery network for efficient video handling and scalable data collection. This integration addresses the challenge of embedding a library of video segments of varied lengths for crowdsourced ground truth labeling in REDCap.
+VideoCap integrates REDCap with Amazon AWS and an embeddable content delivery network for efficient video handling and scalable data collection. This integration addresses the challenge of embedding a library of video segments of varied lengths for crowdsourced ground truth labeling in REDCap.
 
 ## Key Features
 - **Efficient Video Management:** Handles varied segmented video libraries using a content delivery network (CDN).
 - **Metadata- driven survey URL generation:** Dynamically generates survey URLs based on video metadata.
-- **One URL with access to multiple surveys:** Provides a single URL point of access that can direct participants to the same survey with different media content.
+- **Single URL access point:** Distributes unique video sets within a single REDCap survey using dynamic URL parameters.
 
 ## Repository Structure
-This repository contains all the necessary components to replicate and extend the CLIPS project. The structure is as follows:
+This repository contains all the necessary components to replicate and extend the VideoCap project. The structure is as follows:
 ```
 .
 ├── 1 - REDCap Survey
